@@ -1,0 +1,28 @@
+{
+  "name": "revisao-roteiro",
+  "version": "1.0.0",
+  "description": "API de revisão de roteiros com versões e estado explícito",
+  "scripts": {
+    "start": "node src/server.ts",
+    "test": "vitest run",
+    "typecheck": "tsc",
+    "exemplos": "node scripts/gerar-exemplos.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "fastify": "^5.12.5",
+    "luxon": "^3.7.2"
+  },
+  "devDependencies": {
+    "@types/luxon": "^3.7.6",
+    "@types/node": "^24.19.2",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.7"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=22.18"
+  }
+}
